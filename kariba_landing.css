@@ -1,5 +1,79 @@
-table.centre {
+:root {
+  --max_button_width: 494px; 
+}
+
+
+img.centre {
     margin-left:auto; 
     margin-top:75px;
     margin-right:auto;
+    display: block;
+    /*border: 3px solid green;*/
+    width:100%;
+    max-width: var(--max_button_width);
+  }
+
+  img.bottom {
+  	margin-left:auto; 
+    margin-top:75px;
+    margin-right:0px;
+    display: block;
+    /*border: 3px solid green;*/
+    width:205px;
+  }
+
+ img.booking_button{
+ 	display:block;
+  	margin-left:auto;
+  	margin-right:1px;
+  	margin-top:15px;
+  	/*border: 3px solid blue;*/
+  	width:50%;
+
+  }
+
+  div.copyright{
+  	font-size: 12pt;
+  	font-family: 'Jost-Medium';
+  	color:#0A2636;
+  	width:100%;
+  	
+  	background-color:#255ED6;
+  	
+  padding: 70px 0;
+  /*border: 3px solid green;*/
+  text-align: center;
+  color:#ffffff;
+	}
+
+  p.doctor_text{
+  	font-size: 55pt;
+  	font-family: 'QuincyCF-Medium';
+  	color:#0A2636;
+  }
+  p.doctor_text_light{
+  	font-size: 22pt;
+  	font-family: 'QuincyCF-Medium';
+  	color:#A0A0A0;
+  }
+  
+body {
+  background-color: #ffffff;
+  background-image: url("images/top_right_semi_circle.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+  div.button_holder{
+  	width: 100%;
+  	/*border: 3px solid yellow;*/
+  	margin-left:auto;
+  	margin-right:auto;
+  	max-width: var(--max_button_width);
+  }
+  div.middle{
+  	margin-left:auto;
+  	margin-right:auto;
+  	width: 50%;
+  	/*border: 3px solid red;*/
   }
