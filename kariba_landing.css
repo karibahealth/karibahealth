@@ -17,6 +17,7 @@ img.centre {
   	margin-left:auto; 
     margin-top:75px;
     margin-right:0px;
+    margin-bottom:0px;
     display: block;
     /*border: 3px solid green;*/
     width:205px;
@@ -37,13 +38,10 @@ img.centre {
   	font-family: 'Jost-Medium';
   	color:#0A2636;
   	width:100%;
-  	
   	background-color:#255ED6;
-  	
-  padding: 70px 0;
-  /*border: 3px solid green;*/
-  text-align: center;
-  color:#ffffff;
+    padding: 70px 0;
+	text-align: center;
+	color:#ffffff;
 	}
 
   p.doctor_text{
@@ -62,8 +60,11 @@ body {
   background-image: url("images/top_right_semi_circle.png");
   background-repeat: no-repeat;
   background-position: right top;
+  width:100%;
+  /*border:1px solid blue;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin:0;
 }
 
   div.button_holder{
@@ -77,5 +78,6 @@ body {
   	margin-left:auto;
   	margin-right:auto;
   	width: 50%;
+  	/*margin:0;*/
   	/*border: 3px solid red;*/
   }
