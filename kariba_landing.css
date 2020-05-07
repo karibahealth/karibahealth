@@ -87,7 +87,7 @@ img.background_semicircle {
   div.doctor_text{
   	padding-top:90px;
 	padding-bottom:35px;
-	font-size:50pt;
+	font-size:45pt;
 	line-height: 50pt;
   	font-family: 'QuincyCF-Medium';
   	color:#0A2636;
@@ -104,8 +104,8 @@ img.background_semicircle {
   }
 
   div.padded {
-  	padding-left:65px;
-  	padding-right:65px;
+  	padding-left:45px;
+  	padding-right:45px;
   }
 /*for mobile */
 [class*="col-"] {
