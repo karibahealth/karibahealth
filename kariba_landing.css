@@ -58,6 +58,7 @@ img.background_semicircle {
   }
   img.red_circle {
   	display:block;
+    padding-top:30px;
   	margin-left:auto;
   	margin-right:0px;
   	max-width: 50%; /* var(--max_semicircle_width);*/
