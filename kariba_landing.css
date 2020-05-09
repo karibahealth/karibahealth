@@ -34,7 +34,7 @@ img.booking_button{
     margin-top:15px;
     margin-bottom:60px;
     width:100%;
-    width: var(--max_button_width);
+    max-width: var(--max_button_width);
 
   }
 
@@ -46,7 +46,8 @@ img.booking_button{
     line-height: 50pt;
     font-family: 'QuincyCF-Medium';
     color:#0A2636;
-    width:var(--max_button_width);
+    width:100%;
+    max-width:var(--max_button_width);
     
   }
 img.background_semicircle {
