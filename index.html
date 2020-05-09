@@ -31,7 +31,79 @@
 }
 
 
- /* For mobile phones: */
+@keyframes slideUp {
+  0% {
+  	opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+  	opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes slideUp2 {
+  0% {
+  	opacity: 0;
+    transform: translateY(100px);
+  }
+  20% {
+  opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+  	opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes slideUp3 {
+  0% {
+  	opacity: 0;
+    transform: translateY(150px);
+  }
+  30% {
+  opacity: 0;
+    transform: translateY(150px);
+  }
+  100% {
+  	opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes slideUp4 {
+  0% {
+  	opacity: 0;
+    transform: translateY(250px);
+  }
+  40% {
+  opacity: 0;
+    transform: translateY(250px);
+  }
+  100% {
+  	opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+div.upSlider{  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 0.6s ease 0s 1 slideUp;
+}
+div.upSlider2{  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 0.6s ease 0s 1 slideUp2;
+}
+div.upSlider3{  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 0.9s ease 0s 1 slideUp3;
+}
+div.upSlider4{  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 0.9s ease 0s 1 slideUp4;
+}
+
 
 
 
@@ -45,16 +117,18 @@
 		</div>
 	<div class="row padded">
 		<div class="col-6 col-s-6"> 
-			<img class="logo" src="images/landing_logo_transparent.png" alt="Kariba Health">
-			<div class="doctor_text">The Doctor will see you shortly.</div>
-			<div class="button_holder">
+			<div class="upSlider">
+				<img class="logo upSlider" src="images/landing_logo_transparent.png" alt="Kariba Health">
+			</div>
+			<div class="doctor_text upSlider2">The Doctor will see you shortly.</div>
+			<div class="button_holder upSlider3">
 				<a href="https://kariba.inputhealth.com/ebooking#new">
 					<img class='booking_button' src="images/request_a_booking_button_large.png">
 				</a>
 			</div>
 		</div>
 		<div class="col-6 col-s-6"> 
-			<div class="welcome">Welcome to Kariba, we are almost ready to launch our full range of family healthcare services, until then, please request a booking of one of our limited services.</div>
+			<div class="welcome upSlider4">Welcome to Kariba, we are almost ready to launch our full range of family healthcare services, until then, please request a booking of one of our limited services.</div>
 			<!-- <p> move bottom thing</p> -->
 		</div>
 	</div>
