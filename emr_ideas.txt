@@ -1,0 +1,32 @@
+# What does the system NEED to do:
+
+. Allow patient to book
+	. Based on the doctors schedule
+. Send questionaires
+	a. Based on a list of presenting issues
+. Store patient Charts
+   . health card number OR private
+   . address and basic information
+. Send Faxes
+   . to pharmacy and radiology?
+. Fill in templates for
+   . Encounter notes
+      . Rash
+      	 - present for
+      	   - month
+      	   - less than
+      	   - more than
+      . Baby visit
+         - Age
+         
+   . Visits
+   . Referrals
+   . Prescriptions
+
+. Submit billing
+   . 
+. Labs?
+. Tags
+
+
+O0rac1e4063.abc
